@@ -70,6 +70,9 @@ func main() {
 	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 
+	r.StaticFile("/", "./index.html")
+	r.StaticFile("/index.html", "./index.html")
+
 	r.GET("/api/podcasts", handleGetPodcasts)
 	r.POST("/api/podcast/add", handleAddPodcast)
 	r.DELETE("/api/podcast/delete", handleDeletePodcast)

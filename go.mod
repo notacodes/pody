@@ -1,4 +1,4 @@
-module podcast-downloader
+module pody
 
 go 1.25
 

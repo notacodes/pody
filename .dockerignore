@@ -1,0 +1,10 @@
+/data
+/downloads
+/config.json
+*.mp3
+*.mp4
+*.exe
+.git
+.gitignore
+**/.DS_Store
+
